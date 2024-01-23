@@ -1,0 +1,35 @@
+{
+  "name": "callme",
+  "version": "1.0.0",
+  "description": "Just for fun",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rzfhlv/callme.git"
+  },
+  "keywords": [
+    "webrtc",
+    "nodejs",
+    "websocket"
+  ],
+  "author": "rzfhlv.me@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rzfhlv/callme/issues"
+  },
+  "homepage": "https://github.com/rzfhlv/callme#readme",
+  "dependencies": {
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "peer": "^1.0.2",
+    "socket.io": "^4.7.4",
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.3"
+  }
+}
